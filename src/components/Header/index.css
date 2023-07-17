@@ -1,0 +1,166 @@
+.nav-header {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-image: linear-gradient(
+    to right,
+    #c70039,
+    #ff5733,
+    yellow,
+    #ff5733,
+    #c70039
+  );
+  background-size: cover;
+}
+
+.bg-container {
+  background-image: linear-gradient(
+    to right,
+    #c70039,
+    #ff5733,
+    yellow,
+    #ff5733,
+    #c70039
+  );
+  background-size: cover;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-img1 {
+  height: 80px;
+  width: 25vw;
+}
+
+.top-img2 {
+  height: 80px;
+  width: 50vw;
+}
+
+.top-img3 {
+  height: 80px;
+  width: 25vw;
+}
+
+@media all and (min-width: 575px) {
+  .bg-container {
+    background-image: linear-gradient(
+      to right,
+      #c70039,
+      #ff5733,
+      yellow,
+      #ff5733,
+      #c70039
+    );
+    background-size: cover;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top-img1 {
+    height: 50px;
+    width: 25vw;
+  }
+
+  .top-img2 {
+    height: 50px;
+    width: 50vw;
+  }
+
+  .top-img3 {
+    height: 50px;
+    width: 25vw;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .bg-container {
+    background-image: linear-gradient(
+      to right,
+      #c70039,
+      #ff5733,
+      yellow,
+      #ff5733,
+      #c70039
+    );
+    background-size: cover;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top-img1 {
+    height: 120px;
+    width: 25vw;
+  }
+
+  .top-img2 {
+    height: 120px;
+    width: 50vw;
+  }
+
+  .top-img3 {
+    height: 120px;
+    width: 25vw;
+  }
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.blog-title {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 16px;
+}
+.sub-title {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 34px;
+  }
+}
+h4 {
+  color: #a32b26;
+}

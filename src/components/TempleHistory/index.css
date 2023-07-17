@@ -1,0 +1,198 @@
+.heading {
+  color: #f00a5a;
+  font-size: 10px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+@media all and (min-width: 575px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 12px;
+    padding: 0px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 13px;
+    padding: 0px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 14px;
+    padding: 0px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 14px;
+    padding: 0px;
+    font-weight: 500;
+  }
+}
+
+.top-text {
+  font-size: 10px;
+  background-color: white;
+  text-decoration: underline;
+}
+
+@media all and (min-width: 575px) {
+  .top-text {
+    font-size: 12px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .top-text {
+    font-size: 14px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .top-text {
+    font-size: 16px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .top-text {
+    font-size: 18px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+.temple-history {
+  font-size: 8px;
+  color: black;
+  margin-left: 10px;
+}
+
+@media all and (min-width: 575px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 0px;
+  }
+
+  .center-img2 {
+    height: 190px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 200px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 8px;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 0px;
+  }
+
+  .center-img2 {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 0px;
+  }
+
+  .center-img2 {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 0px;
+  }
+
+  .center-img2 {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}

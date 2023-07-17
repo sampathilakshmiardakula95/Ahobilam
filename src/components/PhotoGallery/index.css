@@ -1,0 +1,146 @@
+.heading {
+  color: #f00a5a;
+  font-size: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+@media all and (min-width: 575px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+.top-text {
+  font-size: 10px;
+  background-color: white;
+  text-decoration: underline;
+  margin-top: 80px;
+}
+
+@media all and (min-width: 575px) {
+  .top-text {
+    font-size: 12px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .top-text {
+    font-size: 14px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .top-text {
+    font-size: 16px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .top-text {
+    font-size: 18px;
+    background-color: white;
+    text-decoration: underline;
+  }
+}
+
+.photo-galary-img {
+  height: 100px;
+  width: 45vw;
+  margin: 20px;
+}
+
+.photo-galary-img1 {
+  height: 80px;
+  width: 15vw;
+  margin: 20px;
+}
+@media all and (min-width: 575px) {
+  .photo-galary-img {
+    height: 100px;
+    width: 45vw;
+  }
+
+  .photo-galary-img1 {
+    height: 80px;
+    width: 15vw;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .photo-galary-img {
+    height: 120px;
+    width: 45vw;
+  }
+
+  .photo-galary-img1 {
+    height: 100px;
+    width: 15vw;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .photo-galary-img {
+    height: 150px;
+    width: 45vw;
+  }
+
+  .photo-galary-img1 {
+    height: 100px;
+    width: 15vw;
+  }
+}
+
+@media all and (min-width: 575px) {
+  .photo-galary-img {
+    height: 200px;
+    width: 45vw;
+  }
+
+  .photo-galary-img1 {
+    height: 120px;
+    width: 15vw;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}

@@ -1,0 +1,7 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 1px 1px black;
+}
