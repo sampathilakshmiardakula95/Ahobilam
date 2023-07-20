@@ -2,7 +2,7 @@ import './index.css'
 
 const NewPackageTariff = () => (
   <div>
-    <h3>New-Package-Tariff : </h3> <hr />
+    <h1>New-Package-Tariff : </h1> <hr />
     <p className="heading">
       AHOBILAM MALOLAN TOURS & RELIGIOUS SERVICES INDIA PVT LTD welcomes you
       <br />
@@ -235,6 +235,31 @@ const NewPackageTariff = () => (
       website http://www.ahobilam.net/ E-Mail - komalvai@yahoo.com
       <br />
     </p>
+    <div>
+      <div className="footer-text">
+        <p>
+          RESIDENTIAL HOUSE AND A GUEST SUITE FOR SALE AT AHOBILAM .FOR MORE
+          DETAILS CONTACT US @ 9701393075{' '}
+        </p>
+      </div>
+      <div className="footer-back-color">
+        <img
+          src="https://ahobilam.net/images/facebook.png"
+          alt="fb"
+          className="logo-img"
+        />
+        <img
+          src="https://ahobilam.net/images/yahoo.png"
+          alt="yahoo"
+          className="logo-img ml-1"
+        />
+        <img
+          src="https://ahobilam.net/images/linkedin.png"
+          alt="linked-in"
+          className="logo-img ml-1"
+        />
+      </div>
+    </div>
   </div>
 )
 

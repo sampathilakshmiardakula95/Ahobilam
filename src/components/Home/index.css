@@ -29,3 +29,534 @@ h4 {
   width: 50vw;
   overflow-y: scroll;
 }
+
+.top-position1 {
+  position: fixed;
+}
+
+@media all and (min-width: 575px) {
+  .top-position1 {
+    position: fixed;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .top-position1 {
+    position: fixed;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .top-position1 {
+    position: fixed;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .top-position1 {
+    position: fixed;
+  }
+}
+
+.bg-container {
+  background-image: linear-gradient(
+    to right,
+    #c70039,
+    #ff5733,
+    yellow,
+    #ff5733,
+    #c70039
+  );
+  background-size: cover;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-img1 {
+  height: 80px;
+  width: 25vw;
+}
+
+.top-img2 {
+  height: 80px;
+  width: 50vw;
+}
+
+.top-img3 {
+  height: 80px;
+  width: 25vw;
+}
+
+@media all and (min-width: 575px) {
+  .bg-container {
+    background-image: linear-gradient(
+      to right,
+      #c70039,
+      #ff5733,
+      yellow,
+      #ff5733,
+      #c70039
+    );
+    background-size: cover;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top-img1 {
+    height: 80px;
+    width: 25vw;
+  }
+
+  .top-img2 {
+    height: 80px;
+    width: 50vw;
+  }
+
+  .top-img3 {
+    height: 80px;
+    width: 25vw;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .bg-container {
+    background-image: linear-gradient(
+      to right,
+      #c70039,
+      #ff5733,
+      yellow,
+      #ff5733,
+      #c70039
+    );
+    background-size: cover;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top-img1 {
+    height: 150px;
+    width: 25vw;
+  }
+
+  .top-img2 {
+    height: 150px;
+    width: 50vw;
+  }
+
+  .top-img3 {
+    height: 150px;
+    width: 25vw;
+  }
+}
+
+.nav-container {
+  background-color: #ff4433;
+  background-size: cover;
+  height: 10px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-a {
+  font-size: 3px;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 800;
+  margin-left: 4px;
+  padding: 3px;
+}
+
+@media all and (min-width: 575px) {
+  .nav-container {
+    background-color: #ff4433;
+    background-size: cover;
+    height: 18px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav-a {
+    font-size: 6px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: 800;
+    margin-left: 4px;
+    padding: 4px;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .nav-container {
+    background-color: #ff4433;
+    background-size: cover;
+    height: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav-a {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: 800;
+    margin-left: 2px;
+    padding: 4px;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .nav-container {
+    background-color: #ff4433;
+    background-size: cover;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav-a {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: 800;
+    margin-left: 5px;
+    padding: 5px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .nav-container {
+    background-color: #ff4433;
+    background-size: cover;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav-a {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: 800;
+    margin-left: 8px;
+    padding: 8px;
+  }
+}
+
+.center-img1 {
+  margin-top: 20px;
+  height: 150px;
+  width: 100vw;
+}
+
+@media all and (min-width: 575px) {
+  .center-img1 {
+    margin-top: 20px;
+    height: 200px;
+    width: 100vw;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .center-img1 {
+    margin-top: 20px;
+    height: 550px;
+    width: 100vw;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .center-img1 {
+    margin-top: 20px;
+    height: 650px;
+    width: 100vw;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .center-img1 {
+    margin-top: 20px;
+    height: 750px;
+    width: 100vw;
+  }
+}
+
+.new-package {
+  height: 100px;
+  width: 100vw;
+}
+
+@media all and (min-width: 575px) {
+  .new-package {
+    height: 200px;
+    width: 100vw;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .new-package {
+    height: 300px;
+    width: 100vw;
+  }
+}
+
+.center-content1 {
+  height: 30px;
+  width: 80vw;
+  text-align: center;
+  box-shadow: 2px 2px #e1e3e1;
+  margin: 10px;
+  border: none;
+  align-self: center;
+}
+
+.center-content1-txt {
+  font-size: 6px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin: 0px;
+}
+
+@media all and (min-width: 575px) {
+  .center-content1 {
+    height: 40px;
+    width: 60vw;
+    text-align: center;
+    box-shadow: 2px 2px #e1e3e1;
+    margin-left: 190px;
+    border: none;
+    align-self: center;
+  }
+
+  .center-content1-txt {
+    font-size: 9px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin: 0px;
+  }
+}
+
+.center-content {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100vw;
+  background-color: white;
+  box-shadow: 1px 1px #e1e3e1;
+}
+
+.center-img2 {
+  height: 200px;
+  width: 50vw;
+}
+
+.back-card {
+  background-color: white;
+  box-shadow: 1px 1px #e1e3e1;
+}
+
+.center-content2-txt {
+  height: 200px;
+  width: 50vw;
+  overflow-y: scroll;
+}
+
+.temple-history {
+  font-size: 8px;
+  color: black;
+  margin-left: 10px;
+}
+
+@media all and (min-width: 575px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 10px;
+  }
+
+  .center-img2 {
+    height: 190px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 200px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 8px;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 10px;
+  }
+
+  .center-img2 {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 10px;
+  }
+
+  .center-img2 {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .center-content {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: 1px 1px #e1e3e1;
+    padding: 10px;
+  }
+
+  .center-img2 {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .center-content2-txt {
+    height: 290px;
+    width: 50vw;
+  }
+
+  .temple-history {
+    color: black;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
+.heading {
+  color: #f00a5a;
+  font-size: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+@media all and (min-width: 575px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 991px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .heading {
+    color: #f00a5a;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+  }
+}
+
+.house-sale-img {
+  height: 300px;
+  width: 100vw;
+}
+
+.footer-back-color {
+  background-color: #94f207;
+  height: 40px;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo-img {
+  height: 20px;
+  width: 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-align {
+  margin-top: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

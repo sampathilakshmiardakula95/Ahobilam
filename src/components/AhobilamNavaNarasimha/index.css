@@ -1,3 +1,10 @@
+h1 {
+  font-size: 10x;
+}
+p {
+  font-size: 6px;
+}
+
 .heading {
   color: #f00a5a;
   font-size: 10px;
@@ -240,4 +247,40 @@
 
 h1 {
   color: #bf1d1d;
+}
+
+.footer-text {
+  background-color: #ff4433;
+  height: 20px;
+  width: 100vw;
+  font-size: 6px;
+  font-weight: 500;
+  text-align: center;
+  padding: 3px;
+}
+
+.footer-back-color {
+  background-color: #94f207;
+  height: 40px;
+  width: 100vw;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo-img {
+  height: 20px;
+  width: 20px;
+}
+
+.footer-align {
+  margin-top: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+h1 {
+  font-size: 6px;
+}
+p {
+  font-size: 6px;
 }

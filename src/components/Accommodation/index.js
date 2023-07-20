@@ -2,7 +2,7 @@ import './index.css'
 
 const Accommodation = () => (
   <div>
-    <h3>ACCOMMODATION : </h3>
+    <h1>ACCOMMODATION : </h1>
     <hr />
     <div className="flex-container ml-5 mt-3">
       <img
@@ -41,6 +41,31 @@ const Accommodation = () => (
           Rupee Symbol1500- Indian Rupee Symbol1800 - 2000 depending on the
           seasonality
         </p>
+      </div>
+    </div>
+    <div>
+      <div className="footer-text">
+        <p>
+          RESIDENTIAL HOUSE AND A GUEST SUITE FOR SALE AT AHOBILAM .FOR MORE
+          DETAILS CONTACT US @ 9701393075{' '}
+        </p>
+      </div>
+      <div className="footer-back-color">
+        <img
+          src="https://ahobilam.net/images/facebook.png"
+          alt="ahobilam"
+          className="logo-img"
+        />
+        <img
+          src="https://ahobilam.net/images/yahoo.png"
+          alt="ahobilam"
+          className="logo-img ml-1"
+        />
+        <img
+          src="https://ahobilam.net/images/linkedin.png"
+          alt="ahobilam"
+          className="logo-img ml-1"
+        />
       </div>
     </div>
   </div>

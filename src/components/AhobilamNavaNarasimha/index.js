@@ -2,6 +2,11 @@ import './index.css'
 
 const AhobilamNavaNarasimha = () => (
   <div>
+    <h1>
+      {' '}
+      <b>Ahobilam-Nava-Narasimha : </b>{' '}
+    </h1>
+    <hr />
     <img
       src="https://i.ytimg.com/vi/0zPqNgk1L0I/hqdefault.jpg"
       alt="narasimha"
@@ -220,6 +225,31 @@ const AhobilamNavaNarasimha = () => (
             form of Narasimha and this cleft is known as Ugra Sthambham.
           </p>
         </div>
+      </div>
+    </div>
+    <div>
+      <div className="footer-text">
+        <p>
+          RESIDENTIAL HOUSE AND A GUEST SUITE FOR SALE AT AHOBILAM .FOR MORE
+          DETAILS CONTACT US @ 9701393075{' '}
+        </p>
+      </div>
+      <div className="footer-back-color">
+        <img
+          src="https://ahobilam.net/images/facebook.png"
+          alt="fb"
+          className="logo-img"
+        />
+        <img
+          src="https://ahobilam.net/images/yahoo.png"
+          alt="yahoo"
+          className="logo-img ml-1"
+        />
+        <img
+          src="https://ahobilam.net/images/linkedin.png"
+          alt="linked-in"
+          className="logo-img ml-1"
+        />
       </div>
     </div>
   </div>

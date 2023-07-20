@@ -2,7 +2,7 @@ import './index.css'
 
 const Payment = () => (
   <div>
-    <h3> Payment: </h3>
+    <h1> Payment: </h1>
     <p className=" heading tour-package-p">
       Account Holder Name :
       <span>
@@ -15,6 +15,31 @@ const Payment = () => (
       you can pay at -Ahobilam- . <br /> <br /> Thanks & Regards, Ahobialam
       Malolan Tours & Religious Services India Pvt Ltd
     </p>
+    <div>
+      <div className="footer-text">
+        <p>
+          RESIDENTIAL HOUSE AND A GUEST SUITE FOR SALE AT AHOBILAM .FOR MORE
+          DETAILS CONTACT US @ 9701393075{' '}
+        </p>
+      </div>
+      <div className="footer-back-color">
+        <img
+          src="https://ahobilam.net/images/facebook.png"
+          alt="fb"
+          className="logo-img"
+        />
+        <img
+          src="https://ahobilam.net/images/yahoo.png"
+          alt="yahoo"
+          className="logo-img ml-1"
+        />
+        <img
+          src="https://ahobilam.net/images/linkedin.png"
+          alt="linked-in"
+          className="logo-img ml-1"
+        />
+      </div>
+    </div>
   </div>
 )
 

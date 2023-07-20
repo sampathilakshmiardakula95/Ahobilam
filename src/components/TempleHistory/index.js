@@ -2,6 +2,11 @@ import './index.css'
 
 const TempleHistory = () => (
   <div>
+    <h1>
+      {' '}
+      <b>Temple-History : </b>{' '}
+    </h1>
+    <hr />
     <p className="temple-history">
       Ahobilam Temple is a very famous place of worship dedicated to the
       Narasimha Avatar of Lord Vishnu. Nara simha was the unique incarnation
@@ -79,6 +84,31 @@ const TempleHistory = () => (
       devotees gain courage, confidence, and strength, fulfill their honest
       wishes and grant them the boon of a happy, healthy, and contented life.
     </p>
+    <div>
+      <div className="footer-text">
+        <p>
+          RESIDENTIAL HOUSE AND A GUEST SUITE FOR SALE AT AHOBILAM .FOR MORE
+          DETAILS CONTACT US @ 9701393075{' '}
+        </p>
+      </div>
+      <div className="footer-back-color">
+        <img
+          src="https://ahobilam.net/images/facebook.png"
+          alt="fb"
+          className="logo-img"
+        />
+        <img
+          src="https://ahobilam.net/images/yahoo.png"
+          alt="yahoo"
+          className="logo-img ml-1"
+        />
+        <img
+          src="https://ahobilam.net/images/linkedin.png"
+          alt="linked-in"
+          className="logo-img ml-1"
+        />
+      </div>
+    </div>
   </div>
 )
 

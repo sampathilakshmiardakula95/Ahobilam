@@ -2,7 +2,7 @@ import './index.css'
 
 const TourPackage = () => (
   <div>
-    <h3>Tour-Packages:</h3>
+    <h1>Tour-Packages:</h1>
     <hr />
     <h1 className="heading1">
       SEPERATE PACKAGES CAN BE ARRANGED/MODIFIED AS PER THE CUSTOMER-S
@@ -87,6 +87,31 @@ const TourPackage = () => (
       will arrange Jeep for Pavana, Bhargava Narasimha Temples. Due to the worst
       route condition we wouldnot take risk and the risk is at your end.
     </p>
+    <div>
+      <div className="footer-text">
+        <p>
+          RESIDENTIAL HOUSE AND A GUEST SUITE FOR SALE AT AHOBILAM .FOR MORE
+          DETAILS CONTACT US @ 9701393075{' '}
+        </p>
+      </div>
+      <div className="footer-back-color">
+        <img
+          src="https://ahobilam.net/images/facebook.png"
+          className="logo-img"
+          alt="fb"
+        />
+        <img
+          src="https://ahobilam.net/images/yahoo.png"
+          className="logo-img ml-1"
+          alt="yahoo"
+        />
+        <img
+          src="https://ahobilam.net/images/linkedin.png"
+          className="logo-img ml-1"
+          alt="linked-in"
+        />
+      </div>
+    </div>
   </div>
 )
 

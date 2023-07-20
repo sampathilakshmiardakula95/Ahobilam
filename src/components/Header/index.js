@@ -1,77 +1,79 @@
-import {Link} from 'react-router-dom'
-
+import {NavLink} from 'react-router-dom'
 import './index.css'
 
 const Header = () => (
   <nav className="nav-header">
     <div className="blog-container">
-      <div className="bg-container">
-        <img
-          src="https://media2.tarangarts.com/product_images/s1200__3476_1_1/brass-lakshmi-narasimha-idol.jpg"
-          className="top-img1"
-          alt="swamy-img"
-        />
-        <img
-          src="https://1.bp.blogspot.com/-nUU9d8vkPYo/ULx4t7lLrJI/AAAAAAAAAC8/3BeU_IjX6sY/s1600/Untitled-3+copy.gif"
-          className="top-img2"
-          alt="three-namas"
-        />
-        <img
-          src="https://i.pinimg.com/564x/b3/1e/3d/b31e3d981c21fee6a18035588d700bed.jpg"
-          className="top-img3"
-          alt="swamy-img"
-        />
+      <div className="blog-title">
+        <div className="img-container">
+          <img
+            src="https://media2.tarangarts.com/product_images/s1200__3476_1_1/brass-lakshmi-narasimha-idol.jpg"
+            alt="ahobilam"
+            className="top-img1"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-nUU9d8vkPYo/ULx4t7lLrJI/AAAAAAAAAC8/3BeU_IjX6sY/s1600/Untitled-3+copy.gif"
+            alt="ahobilam"
+            className="top-img2"
+          />
+          <img
+            src="https://i.pinimg.com/564x/b3/1e/3d/b31e3d981c21fee6a18035588d700bed.jpg"
+            alt="ahobilam"
+            className="top-img3"
+          />
+        </div>
       </div>
       <ul className="nav-menu">
         <li>
-          <Link to="/" className="nav-link">
+          <NavLink to="/" className="nav-link">
             Home
-          </Link>
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/temple-history" className="nav-link">
+            TempleHistory
+          </NavLink>
         </li>
         <li>
-          <Link to="temple-history" className="nav-link">
-            Temple-History
-          </Link>
+          <NavLink to="/ahobilam-nava-narasimha" className="nav-link">
+            AhobilamNavaNarasimha
+          </NavLink>
         </li>
         <li>
-          <Link to="ahobilam-nava-narasimha" className="nav-link">
-            Ahobilam-Nava-Narasimha
-          </Link>
+          <NavLink to="/tour-package" className="nav-link">
+            TourPackage
+          </NavLink>
         </li>
         <li>
-          <Link to="tour-package" className="nav-link">
-            Tour-Package
-          </Link>
-        </li>
-        <li>
-          <Link to="accommodation" className="nav-link">
+          <NavLink to="/accommodation" className="nav-link">
             Accommodation
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="photo-gallery" className="nav-link">
-            Photo-Gallery
-          </Link>
+          <NavLink to="/photo-gallery" className="nav-link">
+            PhotoGallery
+          </NavLink>
         </li>
         <li>
-          <Link to="new-package-tariff" className="nav-link">
-            New-Package-Tariff
-          </Link>
+          <NavLink to="/new-package-tariff" className="nav-link">
+            NewPackageTariff
+          </NavLink>
         </li>
         <li>
-          <Link to="payment" className="nav-link">
+          <NavLink to="/payment" className="nav-link">
             Payment
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="how-to-reach" className="nav-link">
-            How-To-Reach
-          </Link>
+          <NavLink to="/how-to-reach" className="nav-link">
+            HowToReach
+          </NavLink>
         </li>
         <li>
-          <Link to="contact-us" className="nav-link">
-            Contact-Us
-          </Link>
+          <NavLink to="/contact-us" className="nav-link">
+            ContactUs
+          </NavLink>
         </li>
       </ul>
     </div>
